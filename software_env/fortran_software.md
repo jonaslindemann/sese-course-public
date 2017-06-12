@@ -1,4 +1,4 @@
-# Loading the Python environment
+# Loading the Fortran environment
 
 In the course we will be using the Ananconda Python environment. This environment is loaded on Aurora using the following module commands:
 
