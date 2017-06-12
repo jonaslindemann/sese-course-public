@@ -8,6 +8,7 @@ In the course we will be using the Ananconda Python environment. This environmen
 Verify that the correct version of Python has been loaded:
 
     $ gfortran --version
+    GNU Fortran (GCC) 6.3.0
 
 # Cloning the course material
 
