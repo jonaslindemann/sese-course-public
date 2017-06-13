@@ -69,7 +69,7 @@ Random arrays can be created with the function numpy.random.rand(...), see the f
 
 Do exercises 1.1-1.5 and 2.1-2.3 at http://math.illinois.edu/~shahkar2/cbmg/numpy-exercises.html
 
-# Excercise 6 - Reading binary files from disk
+# Exercise 6 - Reading binary files from disk
 
 In this exercise you need to read elevation data from a binary file data/colorado_elev.vit. The file contains a file header of 268 bytes. After the header the elevation data is stored as unsigned bytes (ubyte in NumPy). The elevation data is stored in a 400 x 400 grid. 
 
