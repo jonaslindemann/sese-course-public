@@ -64,3 +64,9 @@ Random arrays can be created with the function numpy.random.rand(...), see the f
 
     import numpy as np
     values = np.random.rand(200)
+    
+# Exercise 5
+
+Do exercises 1.1-1.5 and 2.1-2.3 at http://math.illinois.edu/~shahkar2/cbmg/numpy-exercises.html
+
+
