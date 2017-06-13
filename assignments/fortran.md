@@ -8,10 +8,10 @@ Do the mixed language exercise X.3*
 
 ## M.1*. Write a program which
 
- a. Defines an array to have 100 elements;
- b. assigns to the elements the values 1,2,3, ..., 100;
- c. reads two integer values in the range 1 to 100;
- d. reverses the order of the elements of the array in the range specified by the two values.
+ 1. Defines an array to have 100 elements;
+ 1. assigns to the elements the values 1,2,3, ..., 100;
+ 1. reads two integer values in the range 1 to 100;
+ 1. reverses the order of the elements of the array in the range specified by the two values.
 
 ## M.2*. Evaluating expressions 
 
@@ -31,11 +31,11 @@ Write a subroutine which returns these calculated values as arguments. The subro
 
 write array sections representing
 
- i. the first row of a;
- ii. the last column of a;
- iii. every second element in each row and column;
- iv. as for (iii) in reverse order in both dimensions;
- v. a zero-sized array
+ 1. the first row of a;
+ 1. the last column of a;
+ 1. every second element in each row and column;
+ 1. as for (iii) in reverse order in both dimensions;
+ 1. a zero-sized array
 
 ## M.5. Where-statement
 
