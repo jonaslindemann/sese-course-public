@@ -1,4 +1,4 @@
-# Exercise 7 - Reading binary files from disk
+# Exercise 7 - Reading uvw data from a text file
 
 In this exercise you need to read the structure and flowfield from the uvw.dat file. This file contains 6 columns of data. The first columns x y z positions and last columns are vector data. For more information see:
 
