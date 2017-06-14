@@ -24,7 +24,7 @@ PyVTK can only handle lists as input, so the arrays must be converted to lists b
 Writing data to PyVTK is then done using the following code:
 
     pointdata = vtk.PointData(vtk.Vectors(vectors.tolist()))
-    data = vtk.VtkData(vtk.StructuredGrid([96, 65, 48]), pointdata)
+    data = vtk.VtkData(vtk.StructuredPoints([96, 65, 48]), pointdata)
     data.tofile('uvw','ascii')
 
 In this example the coordinates is ignored and vectors are visualised on a structured grid.
