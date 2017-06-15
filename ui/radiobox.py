@@ -22,7 +22,7 @@ class MyWindow:
         
         self.radioButton1 = QRadioButton("Extra allt", self.ui)
         self.radioButton1.move(20,20)
-        self.radioButton2 = QRadioButton("Extra allt", self.ui)
+        self.radioButton2 = QRadioButton("More...", self.ui)
         self.radioButton2.move(20,50)
         self.radioButton1.clicked.connect(self.onRadioButtonClicked)
         self.radioButton2.clicked.connect(self.onRadioButtonClicked)

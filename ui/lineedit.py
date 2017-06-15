@@ -20,9 +20,18 @@ class MyWindow:
         self.ui.move(50,50)
         self.ui.setWindowTitle("MyWindow")
         
+        self.button = QPushButton("Tryck", self.ui)
+        self.button.move(50,50)
+        self.button.resize(100,50)
+        self.button.clicked.connect(self.onButtonClicked)
+
+        
         self.lineEdit = QLineEdit(self.ui)
         self.lineEdit.move(20,20)
         self.lineEdit.setText("Text")
+        
+    def onButtonClicked(self):
+        QMessageBox.information(self.ui, "Text", self.lineEdit.text())
         
     def show(self):
         """Show and raise window"""

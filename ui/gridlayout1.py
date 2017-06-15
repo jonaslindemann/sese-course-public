@@ -29,7 +29,7 @@ class MyWindow:
         
         self.grid = QGridLayout(self.mainWidget)
         self.grid.addWidget(self.button1, 0, 0)
-        self.grid.addWidget(self.button2, 0, 1)
+        self.grid.addWidget(self.button2, 0, 2)
         self.grid.addWidget(self.button3, 1, 0)
         self.grid.addWidget(self.button4, 1, 1)
         

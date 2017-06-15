@@ -21,7 +21,7 @@ class MyWindow:
         self.ui.move(50,50)
         self.ui.setWindowTitle("MyWindow")
         
-        self.slider = QSlider(Qt.Horizontal, self.ui)
+        self.slider = QSlider(Qt.Vertical, self.ui)
         self.slider.move(20,20)
         self.slider.setMaximum(100)
         self.slider.setMinimum(0)

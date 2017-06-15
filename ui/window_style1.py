@@ -17,8 +17,8 @@ class MyWindow:
         """Class constructor"""
         
         #self.ui = QtGui.QMainWindow(None, QtCore.Qt.Window)
-        #self.ui = QtGui.QMainWindow(None, QtCore.Qt.Window | QtCore.Qt.Dialog)
-        self.ui = QMainWindow(None, Qt.Window | Qt.Tool)
+        #self.ui = QMainWindow(None, Qt.Window | Qt.Dialog)
+        #self.ui = QMainWindow(None, Qt.Window | Qt.Tool)
         self.ui.resize(200,100)
         self.ui.move(50,50)
         self.ui.setWindowTitle("MyWindow")
