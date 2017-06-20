@@ -25,6 +25,10 @@ Write a subroutine that receives as an argument an array of values, x, and the n
 
 Write a subroutine which returns these calculated values as arguments. The subroutine check for invalid values of n (<=1).
 
+## X.3* Mean and variance using numpy and F2PY
+
+Implement M.3 as a Fortran-module that can be called from Python. Use F2PY to create a python extension module.
+
 ## M.4. Array operations
 
     real, dimension(50,20) :: a
